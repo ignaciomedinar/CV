@@ -1,16 +1,19 @@
-body{
-    background-color: azure;
-    /* height: 100%; */
+body {
+  background-color: azure;
+  /* height: 100%; */
 }
-
-.container{
-    border: solid 1px salmon;
-    /* height: 100%; */
+.container {
+  height: 100vh;
 }
-.row{
-    /* height: 100%; */
-    margin: 100px;
+.wrapper {
+  border: solid 1px salmon;
+  width: 100%;
+  padding: 3rem;
 }
-.col{
-    border: solid 1px blue;
+.row {
+  /* height: 100%; */
+  /* margin: 100px; */
+}
+.col {
+  border: solid 1px blue;
 }
